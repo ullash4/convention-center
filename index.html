@@ -17,10 +17,10 @@
 <body>
     
     <header class="bg-white">
-        <section class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <section class="container mx-5">
+            <nav class="navbar  fixed-top navbar-expand-lg navbar-light bg-white">
                 <div class="container-fluid">
-                  <a class="navbar-brand fs-2" href="#">Imperial Cener</a>
+                  <a class="navbar-brand fs-2" href="#">Imperial Center</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -45,7 +45,7 @@
         </section>
     </header>
 
-    <hero class="container-fuid">
+    <hero class="container-fluid">
         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -54,7 +54,7 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="10000">
-                <img src="images/banner.png" class="" alt="...">
+                <img src="images/carousel/carousel-1.png" class="" alt="...">
                 <div class="carousel-caption">
                     <h5 class=" display-3 text-white fw-bold">The perfect venue for your next event</h5>
                     <p class="fs-3 text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
@@ -66,7 +66,7 @@
                 </div>
               </div>
               <div class="carousel-item" data-bs-interval="2000">
-                <img src="images/banner.png" class="" alt="...">
+                <img src="images/carousel/carousel-2.png" class="" alt="...">
                 <div class="carousel-caption">
                   <h5 class=" display-3 text-white fw-bold">The perfect venue for your next event</h5>
                   <p class="fs-3 text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
@@ -78,11 +78,11 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="images/banner.png" class="" alt="...">
+                <img  src="images/carousel/carousel-3.png" class="" alt="...">
                 <div class="carousel-caption">
                     <h5 class=" display-3 text-white fw-bold">The perfect venue for your next event</h5>
                     <p class="fs-3 text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
-                    <button width="168" type="button" class="btn btn-outline-light">BOOK NOW
+                    <button width="168" type="button" class="btn btn-outline-white">BOOK NOW
                         <svg width="24" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ps-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"  d="M13 5l7 7-7 7M5 5l7 7-7 7" />
                           </svg>
@@ -103,156 +103,175 @@
 
     <main>
       
+
       <section class="container my-5">
-
-        <div class="toast align-items-center show" role="alert" aria-live="assertive" aria-atomic="true">
-          <div class="d-flex">
-            <div class="toast-body">
-            Hello, world! This is a toast message.
-           </div>
-            <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+           <!-- Toest Massage -->
+           <div class="toast align-items-center show" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+              <div class="toast-body bg-warning bg-opacity-25">
+                <i class="fas fa-gift text-warning fs-4"> 40% off on next booking</i>
+            </div>
+              <button type="button" class="btn-close me-2 m-auto p-2 rounded-circle bg-warning" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
           </div>
-        </div>
-        
 
-            <h1 class="display-4 my-5">Best Deals From Us</h1>
+        <!-- Package card  -->
+            <h1 class="display-4 my-5 text-center">Best Deals From Us</h1>
             <div class="row">
                 <div class="col-md-6 col-lg-3">
                    <div class="p-3 pt-5">
-                    <h1 class="display-4 pb-4">$300</h1>
-                    <h4 class="fs-3">Business fair</h4>
-                    <p>for most business event like book fair</p>
-                    <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Limited space access</li>
-                    <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Limited space access</li>
-                    <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Limited space access</li>
-                    <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Limited space access</li>
-                    <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Limited space access</li>
+                    <h1 class="display-4 pb-4">$4300</h1>
+                    <h4 class="fs-3">Weddings Events</h4>
+                    <p>For the best wedding event package</p>
+                    <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Full Wedding Planning</li>
+                    <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Partial Wedding Planning</li>
+                    <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Wedding Coordination</li>
+                    <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Proposal Planning</li>
+                    <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Elopement Planning</li>
                     <button type="button" class="btn bg-warning rounded-pill btn-lg px-5 bg-opacity-50 fw-bold">Select</button>
                    </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                    <div class=" p-3 pt-5">
-                    <h1 class="display-4 pb-4">$300</h1>
-                    <h4 class="fs-3">Business fair</h4>
-                    <p>for most business event like book fair</p>
-                    <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Limited space access</li>
-                    <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Limited space access</li>
-                    <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Limited space access</li>
-                    <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Limited space access</li>
+                    <h1 class="display-4 pb-4">$5300</h1>
+                    <h4 class="fs-3">Fundraisings</h4>
+                    <p>For the best fundraising events package</p>
+                    <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Fundraisers</li>
+                    <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Galas</li>
+                    <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Benefits</li>
+                    <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Revenue-Generating Events</li>
                     <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Limited space access</li>
                     <button type="button" class="btn bg-warning rounded-pill btn-lg px-5 bg-opacity-50 fw-bold">Select</button>
                    </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                   <div class="card text-center border-0 ">
+                   <div class="card  border-0 ">
                     <div class="shadow bg-warning bg-opacity-25 imperial-redius p-4">
-                      <h1 class="display-4 pb-4">$400 <span  class="position-absolute top-0 start-99 translate-middle badge rounded-pill bg-danger fs-4">
+                      <h1 class="display-4 pb-4">$7400 <span  class="position-absolute top-0 start-99 translate-middle badge rounded-pill bg-warning fs-4">
                         HOT
                         <span class="visually-hidden">unread messages</span>
                       </span> </h1>
-                      <h4 class="fs-3">Business fair</h4>
-                      <p>for most business event like book fair</p>
-                      <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Limited space access</li>
-                      <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Limited space access</li>
-                      <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Limited space access</li>
-                      <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Limited space access</li>
-                      <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Limited space access</li>
+                      <h4 class="fs-3">Milestone Celebrations</h4>
+                      <p>Value for money package</p>
+                      <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Anniversaries</li>
+                      <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Birthdays</li>
+                      <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Holiday Parties</li>
+                      <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Bachelorette Parties</li>
+                      <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Baby Showers & Sprinkles</li>
                       <button type="button" class="btn bg-warning rounded-pill btn-lg px-5 bg-opacity-50 fw-bold">Select</button>
                      </div>
                    </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                    <div class="p-3 pt-5">
-                    <h1 class="display-4 pb-4">$300</h1>
-                    <h4 class="fs-3">Business fair</h4>
-                    <p>for most business event like book fair</p>
-                    <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Limited space access</li>
-                    <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Limited space access</li>
-                    <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Limited space access</li>
-                    <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Limited space access</li>
-                    <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Limited space access</li>
+                    <h1 class="display-4 pb-4">$10300</h1>
+                    <h4 class="fs-3">Corporate Events</h4>
+                    <p>For the elite class package</p>
+                    <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Company Parties</li>
+                    <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Networking Events</li>
+                    <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Event Marketing</li>
+                    <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>VIP Client Meetings</li>
+                    <li class="list-unstyled mb-3"><i class="fas fa-check me-2 bg-warning rounded-circle p-1 "></i>Client Appreciation</li>
                     <button type="button" class="btn bg-warning rounded-pill btn-lg px-5 bg-opacity-50 fw-bold">Select</button>
                    </div>
                 </div>
             </div>
         </section>
 
+        <!-- FAQ section  -->
         <section class="container my-5">
-          <h1 class="display-4 my-5">Frequently Asked Questions</h1>
+          <h1 class="display-4 my-5 text-center">Frequently Asked Questions</h1>
           <div class="row g-3">
             <div class="col-md-6">
               <div class="accordion " id="accordionPanelsStayOpenExample">
-                <div class="accordion-item">
+                <div class="accordion-item bg-warning bg-opacity-25">
                   <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                      Accordion Item #1
+                      What is our Purpose ?
                     </button>
                   </h2>
                   <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
                     <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      Our purpose is to harness the power of the world’s best brands to drive positive change. But that doesn’t just happen through our work and with the brands we partner with — it starts with who we are, how we do business, and how we treat each other and those around us.
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item bg-warning bg-opacity-25">
                   <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                      Accordion Item #2
+                      Our business aim and vission
                     </button>
                   </h2>
                   <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                     <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      We aim to create a diverse, equitable, and inclusive community to work in. We seek to create a company and community that does business ethically. We aspire to be as environmentally conscious as possible in an industry that can be wasteful. We strive to serve our communities and give our time and resources.
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item bg-warning bg-opacity-25">
                   <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                      Accordion Item #3
+                      How the Imperial Team Works?
                     </button>
                   </h2>
                   <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                     <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                      Accordion Item #4
-                    </button>
-                  </h2>
-                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                    <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      The Imperial team will oversee all vendors that are working on behalf of YOU, our client. Imperial team will manage and guide all vendors. Production timelines will need to be met from each vendor and submitted to the imperial’s logistics team. This is a collaborative experience but it is necessary for all vendors to understand that the imperial staff is here to execute the look, style, passion and vision of our client.
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-md-6">
-              <img class="img-fluid" src="images/people.png" alt="">
+              <img class="img-fluid rounded-3 shadow" src="images/carousel/faq.jpeg" alt="">
             </div>
+          </div>
+        </section>
+
+        <!-- Contact us section  -->
+        <section id="contact" class="container my-5 bg-warning bg-opacity-25 rounded-3 shadow-lg my-lg-5">
+          <h1 class="py-5 text-center">Contact Us</h1>
+          <div class="w-50 imperial-center text-end">
+            <div class="row my-4">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+              </div>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+              <label for="floatingTextarea2">Comments</label>
+            </div>
+            <button type="button" class="btn bg-warning rounded-pill btn-lg px-5 bg-opacity-50 fw-bold my-5">Send</button>
           </div>
         </section>
 
     </main>
 
-    <footer >
-      <div class="bg-primary imperial-padding text-center">
-        <div>
-          <h4 class="small">Imperial Convention Center 2022 © All rights reserved</h4>
-        </div>
-        <div>
-          <h3>Get the App</h3>
-          <a href="">
-            <img src="images/google-play.png" alt="">
-          </a>
-          <a href="">
-            <img src="images/app-store.png" alt="">
-          </a>
+    <!-- Footer section -->
+    <footer>
+      <div class="bg-warning bg-opacity-25 imperial-padding">
+        <div class="container ">
+          <div class="d-md-flex justify-content-md-between align-items-md-center  ">
+            <div>
+              <h4 class="small">Imperial Convention Center 2022 © All rights reserved</h4>
+            </div>
+              <div class="d-flex flex-column text-center">
+                <h3>Get the App</h3>
+                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp">
+                  <img width="135" height="40" class="img-fluid" src="images/google-play.png" alt="">
+                </a>
+                <a target="_blank" href="https://apps.apple.com/us/app/clash-royale/id1053012308">
+                  <img width="135" height="40" class="img-fluid" src="images/app-store.png" alt="">
+                </a>
+              </div>
+          </div>
         </div>
       </div>
     </footer>

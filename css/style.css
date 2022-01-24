@@ -9,3 +9,7 @@ body{
 .imperial-padding{
     padding: 70px 0;
 }
+.imperial-center{
+        margin: 0 auto;
+        float: none;
+}
